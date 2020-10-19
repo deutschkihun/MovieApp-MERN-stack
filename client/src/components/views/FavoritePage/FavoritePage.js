@@ -73,7 +73,7 @@ function FavoritePage() {
                     <tr>
                         <th>Movie Title</th>
                         <th>Movie RunTime</th>
-                        <th>Movie from favorites</th>
+                        <th>Edit favorite movies</th>
                     </tr>
                 </thead>
                 <tbody>
