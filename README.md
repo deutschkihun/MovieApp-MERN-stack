@@ -14,4 +14,8 @@ If you want to start this project please follow the guilde on the below
 7. compile this project in your terminal with "npm run dev", it can compile backend and frontend together !! 
 
 ## you can get your api key after you sign up this web page "https://www.themoviedb.org/" 
-## because we'll use api key from this web page to load a movie information 
+
+The reason why we need to sign up posted link is that we'll use api key from this web page to load a movie information 
+
+Sample screenshot of this application 
+
