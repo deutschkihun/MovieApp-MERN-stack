@@ -44,6 +44,7 @@ router.post('/removeFromFavorite', (req,res) => {
 
 
 router.post('/addToFavorite', (req,res) => {
+    // add =  save = create new instance
     const favorite = new Favorite(req.body)
     favorite.save((err,doc) => {
         if(err) return res.status(400).send(err)
