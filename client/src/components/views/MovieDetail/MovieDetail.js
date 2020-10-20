@@ -54,8 +54,11 @@ function MovieDetail(props) {
                 <div style={{width:'85%',margin:'1rem auto'}}>
                 
                 {/*Favorite Button */}
+                
                 <div style={{display:'flex',justifyContent:'flex-end',margin:'2rem'}}>
-                <Favorite movieInfo={Movie} movieId ={movieId} userForm={localStorage.getItem('userId')}/>              
+                <Favorite movieInfo={Movie} movieId ={movieId} userForm={localStorage.getItem('userId')}/> 
+                {/* we need movieinfo,movieid and userForm for Favorite list */}   
+
                 </div>
              
                 {/*
