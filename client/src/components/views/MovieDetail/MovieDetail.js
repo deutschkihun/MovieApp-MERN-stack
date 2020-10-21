@@ -15,8 +15,8 @@ function MovieDetail(props) {
     const [ActorToggle, setActorToggle] = useState(false)
     useEffect(() => {
 
-        let endpointCrew = `${API_URL}movie/${movieId}/credits?api_key=${API_KEY}`;  // with credits = crew information 
-        let endpointInfo = `${API_URL}movie/${movieId}?api_key=${API_KEY}`;
+        let endpointCrew = `${API_URL}movie/${movieId}/credits?api_key=${API_KEY}`  // with credits = crew information 
+        let endpointInfo = `${API_URL}movie/${movieId}?api_key=${API_KEY}`
         
         fetch(endpointInfo)
             .then(response => response.json())
@@ -40,7 +40,7 @@ function MovieDetail(props) {
     }
 
     return (
-        <div>
+        <div style={{width:'100%',margin:'0'}}>
                 {/* Header */}
                 <MainImage
                         image={`${IMAGE_BASE_URL}w1280${Movie.backdrop_path}`}
