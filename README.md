@@ -14,6 +14,7 @@ Hello
 
 1. movie list
 2. movie detail information
+3. favorite page
 
 ### dev.js & mongo db setting
 
@@ -34,5 +35,4 @@ Hello
 ![Main Image](https://user-images.githubusercontent.com/45092135/96421329-f087f100-11f6-11eb-8689-f76f0c38dba4.JPG)
 ![Movie Detail 1](https://user-images.githubusercontent.com/45092135/96421483-1f05cc00-11f7-11eb-96cb-c3fe507dac65.JPG)
 ![Movie Detail 2](https://user-images.githubusercontent.com/45092135/96421513-288f3400-11f7-11eb-8e13-10edac6affa4.JPG)
-![Login form](https://user-images.githubusercontent.com/45092135/96421533-2dec7e80-11f7-11eb-81a8-6a5f18c69f62.JPG)
 ![Favorite Page](https://user-images.githubusercontent.com/45092135/96421597-3e045e00-11f7-11eb-9787-86b6a621ef01.JPG)
