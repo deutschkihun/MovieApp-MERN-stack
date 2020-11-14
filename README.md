@@ -1,47 +1,38 @@
-Hello 
+Hello
 
-This project is about movie application with Login form boiler-plate together 
+**How to use this project file**
 
-If you want to start this project please follow the guilde on the below
+1. use git clone or download this file on your local pc
+2. open this file with editor (ex :VScode,sublimeText,Atom.... whatever you want)
+3. add dev.js in server -> config folder. (this folder is for db configuration folder)
+4. add mongo db connection URL (check exmaple picture name "dev.js" below)
+5. compile "npm install" in terminal for backend dependencies
+6. cd client -> compile "npm install" in terminal for frontend dependencies
+7. compile "npm run dev" it will run backend and frontend at the same time
 
+**This project contains following functionalities**
 
-1. (Recommended) use git clone to copy this project in your IDE, you can download and add your file but "git clone" is definitely faster than that.
-2. add dev.js in folder : server -> config. 
-3. In this js file add your mongoDB URL (include ID and password)
-4. Do "npm install" for backend dependencies
-5. go into "client folder" and install "npm install"
-6. go into Folder : client -> Config.js and add your api key
-7. compile this project in your terminal with "npm run dev", it can compile backend and frontend together !! 
+1. movie list
+2. movie detail information
 
-## you can get your api key after you sign up this web page "https://www.themoviedb.org/" 
+### dev.js & mongo db setting
 
-The reason why we need to sign up posted link is that we'll use api key from this web page to load a movie information 
+![image](https://user-images.githubusercontent.com/45092135/99144619-a401cb00-2667-11eb-8bfa-b542c68a51cd.png)
 
-Sample screenshot of this application 
+- in this file you can see <username> and <password> area.
+- here you need to add your username and password of database access
+- for that first you have to create mongo db account -> create new projects -> database access -> add new database user
 
-#### 1.Main Image
+### how to use movie api key from TMBb
+
+1. first register (https://www.themoviedb.org/)
+2. setting -> api
+3. get api key(v3 auth)
+
+### Demo
 
 ![Main Image](https://user-images.githubusercontent.com/45092135/96421329-f087f100-11f6-11eb-8689-f76f0c38dba4.JPG)
-
-
-#### 2.Movie Detail 1
-
 ![Movie Detail 1](https://user-images.githubusercontent.com/45092135/96421483-1f05cc00-11f7-11eb-96cb-c3fe507dac65.JPG)
-
-
-#### 3.Movie Detail 2
-
 ![Movie Detail 2](https://user-images.githubusercontent.com/45092135/96421513-288f3400-11f7-11eb-8e13-10edac6affa4.JPG)
-
-
-#### 4. Login form
-
 ![Login form](https://user-images.githubusercontent.com/45092135/96421533-2dec7e80-11f7-11eb-81a8-6a5f18c69f62.JPG)
-
-
-#### 5. Favorite page
-
 ![Favorite Page](https://user-images.githubusercontent.com/45092135/96421597-3e045e00-11f7-11eb-9787-86b6a621ef01.JPG)
-
-
-
